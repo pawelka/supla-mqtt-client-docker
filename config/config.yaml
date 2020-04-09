@@ -1,0 +1,15 @@
+mqtt:
+  host: '192.168.1.2'
+  port: 1883
+  commands_file_path: 'config-supla/command.yaml'
+  states_file_path: 'config-supla/state.yaml'
+  client_name: 'supla_mqtt_client'
+  protocol_version: 3
+  publish_supla_events: true
+  username: user
+  password: pass
+supla:
+  port: 2016
+  host: '192.168.1.3'
+  protocol_version: 10
+  email: 'yourmail@mail.com'
